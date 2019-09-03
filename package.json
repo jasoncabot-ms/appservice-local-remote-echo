@@ -1,0 +1,14 @@
+{
+    "name": "appservice-local-remote-echo",
+    "description": "Simple HTTP service that will respond with an OK status and optionally merge this into the response of another remote endpoint",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "author": "Jason Cabot",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "request": "^2.88.0"
+    }
+}
